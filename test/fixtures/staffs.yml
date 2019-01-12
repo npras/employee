@@ -1,0 +1,86 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+--- !omap
+boss_joe:
+  id: 1
+  name: 'boss joe'
+  role: bossman
+  salary: 120
+  reporter_id: nil
+
+manager1_joe:
+  id: 2
+  name: 'manager1 joe'
+  role: manager
+  salary: 40
+  reporter_id: 1
+
+manager2_joe:
+  id: 3
+  name: 'manager2 joe'
+  role: manager
+  salary: 40
+  reporter_id: 1
+
+lead1_joe:
+  id: 4
+  name: 'lead1 joe'
+  role: lead
+  salary: 30
+  reporter_id: 2
+
+lead2_joe:
+  id: 5
+  name: 'lead2 joe'
+  role: lead
+  salary: 30
+  reporter_id: 2
+
+lead3_joe:
+  id: 6
+  name: 'lead3 joe'
+  role: lead
+  salary: 30
+  reporter_id: 3
+
+lead4_joe:
+  id: 7
+  name: 'lead4 joe'
+  role: lead
+  salary: 30
+  reporter_id: 3
+
+eng1_joe:
+  id: 8
+  name: 'eng1 joe'
+  role: eng
+  salary: 10
+  reporter_id: 4
+
+eng2_joe:
+  id: 9
+  name: 'eng2 joe'
+  role: eng
+  salary: 10
+  reporter_id: 4
+
+eng3_joe:
+  id: 10
+  name: 'eng3 joe'
+  role: eng
+  salary: 10
+  reporter_id: 4
+
+eng4_joe:
+  id: 11
+  name: 'eng4 joe'
+  role: eng
+  salary: 10
+  reporter_id: 5
+
+eng5_joe:
+  id: 12
+  name: 'eng5 joe'
+  role: eng
+  salary: 10
+  reporter_id: 5
